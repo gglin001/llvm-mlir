@@ -33,6 +33,13 @@
         "MLIR_INCLUDE_TESTS": false,
         "MLIR_ENABLE_BINDINGS_PYTHON": false
       }
+    },
+    {
+      "name": "osx_lld",
+      "inherits": "osx",
+      "cacheVariables": {
+        "CMAKE_LINKER_TYPE": "LLD"
+      }
     }
   ]
 }
