@@ -29,6 +29,7 @@
         "LLVM_APPEND_VC_REV": false,
         "LLVM_ENABLE_IDE": true,
         "LLVM_TARGETS_TO_BUILD": "host;RISCV;AArch64;NVPTX;AMDGPU;SPIRV",
+        "LLVM_EXPERIMENTAL_TARGETS_TO_BUILD": "Xtensa",
         "LLVM_ENABLE_PROJECTS": "mlir;lld",
         "MLIR_INCLUDE_TESTS": false,
         "MLIR_ENABLE_BINDINGS_PYTHON": false
