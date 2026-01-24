@@ -24,6 +24,9 @@ git sparse-checkout add \
   '/llvm/lib/Target/AMDGPU' '/llvm/lib/Target/NVPTX' '/llvm/lib/Target/X86' \
   '/llvm/lib/Target/SPIRV' '/llvm/lib/Target/PowerPC' '/llvm/lib/Target/Xtensa'
 
+git sparse-checkout add \
+  '/llvm/docs' '/mlir/test' '/mlir/docs'
+
 git sparse-checkout list
 
 ######
