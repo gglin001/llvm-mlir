@@ -5,6 +5,7 @@ mkdir -p llvm-project && pushd llvm-project
 git init
 
 git remote add origin git@github.com:llvm/llvm-project.git
+# git remote add origin https://gitcode.com/GitHub_Trending/ll/llvm-project.git
 # git remote add origin /repo/llvm-project
 
 ######
