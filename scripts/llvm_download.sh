@@ -23,7 +23,7 @@ git sparse-checkout add \
   '!/llvm/lib/Target' '/llvm/lib/Target/*.*' \
   '/llvm/lib/Target/RISCV' '/llvm/lib/Target/ARM' '/llvm/lib/Target/AArch64' \
   '/llvm/lib/Target/AMDGPU' '/llvm/lib/Target/NVPTX' '/llvm/lib/Target/X86' \
-  '/llvm/lib/Target/SPIRV' '/llvm/lib/Target/PowerPC' '/llvm/lib/Target/Xtensa'
+  '/llvm/lib/Target/SPIRV' '/llvm/lib/Target/PowerPC'
 
 git sparse-checkout add \
   '/llvm/docs' '/mlir/test' '/mlir/docs'
@@ -32,9 +32,7 @@ git sparse-checkout list
 
 ######
 
-LLVM_SHA="e04ce74fe25265c92b19c4a5dcf873e8c8a4138c"
-# LLVM_SHA="dd14eb8242d756f7ac03d003effab289d8950adf"
-# LLVM_SHA="69db050839d1bdc47d750287689c46b5417d235e"
+LLVM_SHA="27d654c4c4e6eb7c19e46af20500200e793da7c7"
 
 git fetch --depth 1 origin $LLVM_SHA
 # git checkout -b sync $LLVM_SHA
